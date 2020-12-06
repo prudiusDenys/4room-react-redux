@@ -2,7 +2,7 @@ import axios from 'axios'
 import {ArtistInfoResponse, ResponseTrack, TopTracksResponse} from "./types";
 
 const instance = axios.create({
-	baseURL: 'http://ws.audioscrobbler.com/2.0/',
+	baseURL: '//ws.audioscrobbler.com/2.0/',
 })
 const API_KEY = '3df2df8308646e77c7f7765cb11610de';
 
